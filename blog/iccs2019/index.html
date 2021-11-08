@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> Accurately Simulating Energy Consumption of I/O-intensive Scientific Workflows - Rafael Ferreira da Silva, Ph.D. - Senior Research Scientist</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+
+<!-- Prefetch DNS for faster page speed -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com"/>
+<link rel="dns-prefetch" href="//google-analytics.com"/>
+<link rel="dns-prefetch" href="//www.google-analytics.com"/>
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com"/>
+<link rel="dns-prefetch" href="//ajax.googleapis.com"/>
+<link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+
+<!-- icons -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/x-icon"/>
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css"/>
+<link rel="stylesheet" href="/assets/css/academicons/css/academicons.min.css" />
+<link rel="stylesheet" href="/assets/css/main.css"/>
+
+<!-- scripts -->
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $('.collapse').collapse()
+</script>
+
+</head>
+<body class="is-preload">
+<!-- Wrapper -->
+<div id="wrapper">
+    <header id="header">
+    <div class="logo">
+        <a href="/"><img src="/assets/images/ornl-leaf.png" style="width: 2.5em" alt=""/></a>
+    </div>
+    <div class="title">
+        <a href="/"><strong>Rafael</strong><br/>Ferreira da Silva</a>
+    </div>
+    <nav class="links">
+        <ul>
+            <li><a href="/publications">Publications</a></li>
+            <li><a href="/activities">Activities</a></li>
+            <li><a href="/students/alumni">Students</a></li>
+            <li><a href="/teaching">Teaching</a></li>
+            <li><a href="/funding">Awards</a></li>
+            <li><a href="/activities/media">Media</a></li>
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            <!--            <li class="search">-->
+            <!--                <a class="fa-search" href="#search">Search</a>-->
+            <!--                <form id="search" method="get" action="#">-->
+            <!--                    <input type="text" name="query" placeholder="Search"/>-->
+            <!--                </form>-->
+            <!--            </li>-->
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+    <!-- Menu -->
+<section id="menu">
+
+    <!-- Search -->
+    <!--    <section>-->
+    <!--        <form class="search" method="get" action="#">-->
+    <!--            <input type="text" name="query" placeholder="Search"/>-->
+    <!--        </form>-->
+    <!--    </section>-->
+
+    <!-- Links -->
+    <section>
+        <ul class="links">
+            <li><a href="/publications">
+                <h3>Publications</h3>
+                <p>List of Scientific Publications</p>
+            </a></li>
+            <li><a href="/activities">
+                <h3>Activities</h3>
+                <p>Professional Activities (Editor, PC Member, Reviewer)</p>
+            </a></li>
+            <li><a href="/students/alumni">
+                <h3>Students</h3>
+                <p>Current and Past Students (Ph.D., M.S., B.S.)</p>
+            </a></li>
+            <li><a href="/teaching">
+                <h3>Teaching</h3>
+                <p>Course Materials (Slides, Examples)</p>
+            </a></li>
+            <li><a href="/funding">
+                <h3>Awards</h3>
+                <p>Research Funding Awards (NSF, DARPA)</p>
+            </a></li>
+            <li><a href="/activities/media">
+                <h3>Media</h3>
+                <p>Press Coverage</p>
+            </a></li>
+        </ul>
+    </section>
+
+    <!-- Actions -->
+    <!--    <section>-->
+    <!--        <ul class="actions stacked">-->
+    <!--            <li><a href="#" class="button large fit">Log In</a></li>-->
+    <!--        </ul>-->
+    <!--    </section>-->
+
+</section>
+
+
+    <!-- Main -->
+    <div id="main">
+        <!-- Post -->
+<div class="row">
+    <article class="post">
+        <header>
+            <div class="title">
+                <h2>Accurately Simulating Energy Consumption of I/O-intensive Scientific Workflows</h2>
+                <p></p>
+            </div>
+            <div class="meta">
+                <time class="published" datetime="2015-11-01"><i class="fa fa-calendar" aria-hidden="true"></i>
+                    06 Jun 2019&nbsp;
+                </time>
+                <i class="fa fa-clock-o" aria-hidden="true"></i>  1 min read.
+            </div>
+        </header>
+
+        <img class="image featured" src="/assets/images/news/wrench-energy-1024x545.png" alt=""/>
+
+         <p>While distributed computing infrastructures can provide infrastructure-level techniques for managing energy consumption, application-level energy consumption models have also been developed to support energy-efficient scheduling and resource provisioning algorithms. In this work, we analyze the accuracy of a widely-used application-level model that have been developed and used in the context of scientific workflow executions. To this end, we profile two production scientific workflows on a distributed platform instrumented with power meters. We then conduct an analysis of power and energy consumption measure- ments. This analysis shows that power consumption is not linearly related to CPU utilization and that I/O operations significantly impact power, and thus energy, consumption. We then propose a power consumption model that accounts for I/O operations, including the impact of wait- ing for these operations to complete, and for concurrent task executions on multi-socket, multi-core compute nodes. We implement our proposed model as part of a simulator that allows us to draw direct comparisons between real-world and modeled power and energy consumption. We find that our model has high accuracy when compared to real-world execu- tions. Furthermore, our model improves accuracy by about two orders of magnitude when compared to the traditional models used in the energy- efficient workflow scheduling literature.</p>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/3X2WXEX01hpkbV" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+<div style="margin-bottom:5px"></div>
+
+<hr />
+
+<p><strong>Reference to the paper</strong></p>
+
+<ul>
+<li><a href="http://dx.doi.org/10.1007/978-3-030-22734-0_11" target="_blank" alt="DOI">
+                                    <i class="ai ai-doi"></i> </a> <a href="/files/publications/ferreiradasilva-iccs-2019.pdf" target="_blank" alt="PDF"> <i class="far fa-file-pdf"></i> </a> <span id="ferreiradasilva-iccs-2019">Ferreira da Silva, R., Orgerie, A.-C., Casanova, H., Tanaka, R., Deelman, E., &amp; Suter, F. (2019). Accurately Simulating Energy Consumption of I/O-intensive Scientific Workflows. In <i>Computational Science – ICCS 2019</i> (pp. 138–152). Springer International Publishing. https://doi.org/10.1007/978-3-030-22734-0_11</span>
+                                    <br /> <a data-toggle="collapse" href="#bib-ferreiradasilva-iccs-2019" role="button" aria-expanded="false" aria-controls="bib-ferreiradasilva-iccs-2019" style="color: #999"> [BibTex] </a>
+                                    <div class="collapse" id="bib-ferreiradasilva-iccs-2019">
+                                        <figure class="highlight"><pre><code class="language-plain" data-lang="plain">@inproceedings{ferreiradasilva-iccs-2019,
+  author = {Ferreira da Silva, Rafael and Orgerie, Anne-C\'{e}cile and Casanova, Henri and Tanaka, Ryan and Deelman, Ewa and Suter, Fr\'{e}d\'{e}ric},
+  title = {Accurately Simulating Energy Consumption of I/O-intensive Scientific Workflows},
+  booktitle = {Computational Science -- ICCS 2019},
+  year = {2019},
+  pages = {138--152},
+  publisher = {Springer International Publishing},
+  doi = {10.1007/978-3-030-22734-0_11}
+}</code></pre>
+                                        </figure>
+                                    </div>
+                                </li>
+</ul>
+
+
+        <footer>
+            <h5>Tags</h5>
+            <ul class="stats" style="margin-top: 3em">
+                 
+<li><a href="/categories/#presentation" class="icon solid fa-tag">Presentation</a></li>
+
+<li><a href="/categories/#research-paper" class="icon solid fa-tag">Research-paper</a></li>
+
+ 
+            </ul>
+        </footer>
+    </article>
+</div>
+
+    </div>
+
+    <section id="sidebar">
+
+    <!-- Intro -->
+    <section id="intro">
+        <a href="/" class="logo"><img src="/assets/images/2019-rafael-ferreira-da-silva-square.jpg" alt=""/></a>
+        <header>
+            <h2>Rafael Ferreira da Silva, Ph.D.</h2>
+            <p>
+                <strong>Senior Research Scientist</strong><br/>
+                <a href="https://www.ornl.gov/group/dlsw" target="_blank">Data Lifecycle & Scalable Workflows</a><br/>
+                <a href="https://www.ornl.gov/division/nccs" target="_blank">National Center for Computational
+                    Sciences</a><br/>
+                <a href="https://www.ornl.gov" target="_blank">Oak Ridge National Laboratory</a>
+            </p>
+            <!--            <p style="margin-top: 1em">-->
+            <!--                <strong>Research Assistant Professor</strong><br/>-->
+            <!--                <a href="https://www.cs.usc.edu/" target="_blank">Department of Computer Science</a><br/>-->
+            <!--                <a href="https://usc.edu/" target="_blank">University of Southern California</a>-->
+            <!--            </p>-->
+        </header>
+
+        <ul class="icons">
+            <li>
+                <a href="https://www.linkedin.com/in/rafaelfsilva" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://scholar.google.com/citations?user=N63oC44AAAAJ&amp;hl=en" target="_blank">
+                    <i class="ai ai-google-scholar"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.researchgate.net/profile/Rafael_Ferreira_da_Silva" target="_blank">
+                    <i class="ai ai-researchgate"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://dblp.uni-trier.de/pers/hd/s/Silva:Rafael_Ferreira_da.html" target="_blank">
+                    <i class="ai ai-dblp"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://orcid.org/0000-0002-1720-0928" target="_blank">
+                    <i class="ai ai-orcid"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/rafaelfsilva" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/RafaelSilvaORNL" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+
+    </section>
+
+    <section>
+        <div>
+            <a class="twitter-timeline" href="https://twitter.com/RafaelSilvaORNL?ref_src=twsrc%5Etfw"
+               data-height="60em" style="border: 1px solid #ccc"></a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </section>
+
+    <section id="footer">
+    <p class="copyright">
+        <a href="https://ornl.gov" target="_blank" style="border: 0">
+            <img src="/assets/images/ornl.png" alt="ORNL" style="width: 20em"/>
+        </a>
+        <br/><br/>
+        Rafael Ferreira da Silva, Ph.D.<br/>
+        Oak Ridge National Laboratory<br/>
+        <i class="fas fa-map-marker-alt"></i> P.O. Box 2008, Oak Ridge, TN, USA 37831<br/>
+<!--        <i class="fas fa-phone"></i> Office: 310-448-8352<br/>-->
+<!--        <i class="fas fa-envelope"></i> <span style="text-transform: lowercase">rafsilva@isi.edu</span><br/>-->
+        <i class="fas fa-envelope"></i> <span style="text-transform: lowercase">silvarf@ornl.gov</span>
+        <br/><br/><br/>
+        &copy;2021 Rafael Ferreira da Silva, Ph.D.<br/>Senior Research Scientist.
+    </p>
+</section>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-338939-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-338939-1');
+</script>
+
+
+</section>
+
+
+<!--<div class="sidebar">-->
+<!--    <div class="author-container shadow">-->
+<!--        <hr class="dashed">-->
+<!--        <div>-->
+<!--            <ul class="menu">-->
+<!--                -->
+<!--                <li>-->
+<!--                    <a  href="/publications/">Publications</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li>-->
+<!--                    <a  href="/activities/">Professional Activities</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li>-->
+<!--                    <a  href="/students/alumni/">Current and Past Students</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li>-->
+<!--                    <a  href="/teaching/">Teaching</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li>-->
+<!--                    <a  href="/funding/">Funding Awards</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li>-->
+<!--                    <a  href="/blog/">News</a>-->
+<!--                </li>-->
+<!--                -->
+<!--                <li>-->
+<!--                    <a  href="/activities/media/">Media</a>-->
+<!--                </li>-->
+<!--                -->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+</div>
+
+<!-- Scripts -->
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/browser.min.js"></script>
+<script src="/assets/js/breakpoints.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://rafaelsilva.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rafaelsilva.com/" rel="alternate" type="text/html" /><updated>2021-11-08T03:12:57+00:00</updated><id>https://rafaelsilva.com/feed.xml</id><title type="html">Rafael Ferreira da Silva, Ph.D. - Senior Research Scientist</title><subtitle>Senior Research Scientist at the Oak Ridge National Laboratory. Research: Modeling and Simulation of parallel and distributed computing systems; Scientific Workflows scheduling, optimization, fault-tolerance, and energy-efficiency; and Distributed Computing on clouds, grids, and HPC clusters.</subtitle><entry><title type="html">Towards an Infrastructure for Enabling Systematic Development and Research of Scientific Workflow Systems and Applications</title><link href="https://rafaelsilva.com/blog/escience-2021/" rel="alternate" type="text/html" title="Towards an Infrastructure for Enabling Systematic Development and Research of Scientific Workflow Systems and Applications" /><published>2021-10-01T00:00:00+00:00</published><updated>2021-10-01T00:00:00+00:00</updated><id>https://rafaelsilva.com/blog/escience-2021</id><content type="html" xml:base="https://rafaelsilva.com/blog/escience-2021/">&lt;p&gt;Scientific workflows have been used almost universally across scientific domains, 
+and have underpinned some of the most significant discoveries of the past several 
+decades. Many of these workflows have high computational, storage, and/or communication 
+demands, and thus must execute on a wide range of large-scale platforms, from 
+large clouds to upcoming exascale high-performance computing (HPC) platforms. 
+These executions must be managed using some software infrastructure. Due to the 
+popularity of workflows, workflow management systems (WMSs) have been developed to 
+provide abstractions for creating and executing workflows conveniently, efficiently, 
+and portably. While these efforts are all worthwhile, there are now hundreds of 
+independent WMSs, many of which are moribund. As a result, the WMS landscape is 
+segmented and presents significant barriers to entry due to the hundreds of seemingly 
+comparable, yet incompatible, systems that exist. As a result, many teams, small and 
+large, still elect to build their own custom workflow solution rather than adopt, 
+or build upon, existing WMSs. This current state of the WMS landscape negatively 
+impacts workflow users, developers, and researchers.&lt;/p&gt;
+
+&lt;p&gt;In this talk, I provide a view of the state of the art and some of my previous 
+research and technical contributions, and identify crucial research challenges 
+in the workflows community.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://widgets.figshare.com/articles/16723042/embed?show_title=1&quot; width=&quot;100%&quot; height=&quot;500&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="modeling" /><category term="simulation" /><category term="workflows" /><category term="distributed computing" /><category term="ai workflows" /><category term="FAIR computational workflows" /><category term="exascale" /><summary type="html">Scientific workflows have been used almost universally across scientific domains, and have underpinned some of the most significant discoveries of the past several decades. Many of these workflows have high computational, storage, and/or communication demands, and thus must execute on a wide range of large-scale platforms, from large clouds to upcoming exascale high-performance computing (HPC) platforms. These executions must be managed using some software infrastructure. Due to the popularity of workflows, workflow management systems (WMSs) have been developed to provide abstractions for creating and executing workflows conveniently, efficiently, and portably. While these efforts are all worthwhile, there are now hundreds of independent WMSs, many of which are moribund. As a result, the WMS landscape is segmented and presents significant barriers to entry due to the hundreds of seemingly comparable, yet incompatible, systems that exist. As a result, many teams, small and large, still elect to build their own custom workflow solution rather than adopt, or build upon, existing WMSs. This current state of the WMS landscape negatively impacts workflow users, developers, and researchers. In this talk, I will provide a view of the state of the art and some of my previous research and technical contributions, and identify crucial research challenges in the workflow community.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rafaelsilva.com/assets/images/news/escience2021.png" /><media:content medium="image" url="https://rafaelsilva.com/assets/images/news/escience2021.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Modeling and Simulation of Parallel and Distributed Computing Systems with SimGrid, WRENCH, and WfCommons</title><link href="https://rafaelsilva.com/blog/modeling-and-simulation/" rel="alternate" type="text/html" title="Modeling and Simulation of Parallel and Distributed Computing Systems with SimGrid, WRENCH, and WfCommons" /><published>2021-08-27T00:00:00+00:00</published><updated>2021-08-27T00:00:00+00:00</updated><id>https://rafaelsilva.com/blog/modeling-and-simulation</id><content type="html" xml:base="https://rafaelsilva.com/blog/modeling-and-simulation/">&lt;p&gt;This presentation provides an overview of three &lt;strong&gt;open source tools&lt;/strong&gt;
+that have supported research and development of cyberinfrastructure
+tools via modeling and simulation:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://simgrid.org&quot; target=&quot;_blank&quot; style=&quot;border-bottom: 0&quot;&gt;
+&lt;img src=&quot;https://simgrid.org/logos/simgrid_logo_2011.png&quot; alt=&quot;SimGrid&quot; style=&quot;max-width: 10em; margin-bottom: -1em&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://simgrid.org&quot;&gt;SimGrid&lt;/a&gt;&lt;/strong&gt; provides foundational simulation 
+models and abstractions for simulating distributed applications, systems, and 
+platforms. It has been stable for many years, has a large user community, and 
+has a regular release cycle. It has been used successfully in many distributed 
+computing domains and has provided simulation results for 400+ research publications.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wrench-project.org&quot; target=&quot;_blank&quot; style=&quot;border-bottom: 0&quot;&gt;
+&lt;img src=&quot;https://wrench-project.org/images/logo-horizontal.png&quot; alt=&quot;WRENCH&quot; style=&quot;max-width: 12em; margin-bottom: -1em&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://wrench-project.org&quot;&gt;WRENCH&lt;/a&gt;&lt;/strong&gt; builds on SimGrid, so that simulations 
+can be accurate and scalable, but provides high-level simulation abstractions. 
+For instance, it provides several simulated implementations of “compute services” 
+for bare-metal hardware resources, virtualized hardware resources, cloud platforms,
+batch-scheduled clusters, or HTCondor pools.  As a result, implementing
+simulators of complex scenarios can be done with minimal software engineering
+efforts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wfcommons.org&quot; target=&quot;_blank&quot; style=&quot;border-bottom: 0&quot;&gt;
+&lt;img src=&quot;https://wfcommons.org/images/wfcommons-horizontal.png&quot; alt=&quot;WfCommons&quot; style=&quot;max-width: 12em; margin-bottom: -1em&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://wfcommons.org&quot;&gt;WfCommons&lt;/a&gt;&lt;/strong&gt; is a framework for enabling 
+scientific workflow research and development by providing foundational tools 
+for analyzing workflow execution instances, generating workflow recipes, and 
+generating synthetic, yet realistic, workflow instances that can be used to 
+develop new techniques, algorithms and systems that can overcome the challenges 
+of efficient and robust execution of ever larger workflows on increasingly complex 
+distributed infrastructures.&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/4QG62ct70xjYY&quot; width=&quot;100%&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/rafaelsilvajp/modeling-and-simulation-of-parallel-and-distributed-computing-systems-with-simgrid-wrench-and-wfcommons&quot; title=&quot;Modeling and Simulation of Parallel and Distributed Computing Systems with SimGrid, WRENCH, and WfCommons&quot; target=&quot;_blank&quot;&gt;Modeling and Simulation of Parallel and Distributed Computing Systems with SimGrid, WRENCH, and WfCommons&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;https://www.slideshare.net/rafaelsilvajp&quot; target=&quot;_blank&quot;&gt;Rafael Ferreira da Silva&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;</content><author><name></name></author><category term="modeling" /><category term="simulation" /><category term="WRENCH" /><category term="WfCommons" /><category term="SimGrid" /><category term="workflows" /><category term="distributed computing" /><summary type="html">This presentation provides an overview of three open source tools that have supported research and development of cyberinfrastructure tools via modeling and simulation.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rafaelsilva.com/assets/images/news/modeling-and-simulation.png" /><media:content medium="image" url="https://rafaelsilva.com/assets/images/news/modeling-and-simulation.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Good Practices for Developing Scientific Software Frameworks: The WRENCH framework example</title><link href="https://rafaelsilva.com/blog/good-practices-scientific-software/" rel="alternate" type="text/html" title="Good Practices for Developing Scientific Software Frameworks: The WRENCH framework example" /><published>2021-07-13T00:00:00+00:00</published><updated>2021-07-13T00:00:00+00:00</updated><id>https://rafaelsilva.com/blog/good-practices-scientific-software</id><content type="html" xml:base="https://rafaelsilva.com/blog/good-practices-scientific-software/">&lt;p&gt;Recently, I have presented a set of good practices for developing scientific 
+software frameworks for a group of Research Experiences for Undergraduates (REU) 
+students at the &lt;a href=&quot;https://www.isi.edu&quot;&gt;USC Information Sciences Institute&lt;/a&gt;. In
+this presentation, I compiled a list of best practices for software development,
+testing, integration, deployment, delivery, and documentation.&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/CrCRdxuAdmTNZ0&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/rafaelsilvajp/good-practices-for-developing-scientific-software-frameworks-the-wrench-framework-example-and-some-others&quot; title=&quot;Good Practices for Developing Scientific Software Frameworks: The WRENCH framework example (and some others)&quot; target=&quot;_blank&quot;&gt;Good Practices for Developing Scientific Software Frameworks: The WRENCH framework example (and some others)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;https://www.slideshare.net/rafaelsilvajp&quot; target=&quot;_blank&quot;&gt;Rafael Ferreira da Silva&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;</content><author><name></name></author><category term="scientific-software" /><category term="best-practices" /><summary type="html">In this presentation, I compiled a list of best practices for software development, testing, integration, deployment, delivery, and documentation.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rafaelsilva.com/assets/images/news/best-practices-scientific-software.png" /><media:content medium="image" url="https://rafaelsilva.com/assets/images/news/best-practices-scientific-software.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Workflows Community Summit: Bringing the Scientific Workflows Community Together</title><link href="https://rafaelsilva.com/blog/workflows-community-summit-report/" rel="alternate" type="text/html" title="Workflows Community Summit: Bringing the Scientific Workflows Community Together" /><published>2021-03-16T00:00:00+00:00</published><updated>2021-03-16T00:00:00+00:00</updated><id>https://rafaelsilva.com/blog/workflows-community-summit-report</id><content type="html" xml:base="https://rafaelsilva.com/blog/workflows-community-summit-report/">&lt;p&gt;&lt;strong&gt;Summit Report:&lt;/strong&gt;
+&lt;a href=&quot;https://doi.org/10.5281/zenodo.4606958&quot; style=&quot;border: 0; margin: 0&quot;&gt;
+&lt;img src=&quot;https://zenodo.org/badge/DOI/10.5281/zenodo.4606958.svg&quot; alt=&quot;DOI&quot; style=&quot;margin: 0&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt;
+
+&lt;p&gt;Scientific workflows have been used almost universally across scientific domains, 
+and have underpinned some of the most significant discoveries of the past several 
+decades. Many of these workflows have high computational, storage, and/or communication 
+demands, and thus must execute on a wide range of large-scale platforms, from large 
+clouds to upcoming exascale high-performance computing (HPC) platforms. These executions 
+must be managed using some software infrastructure. Due to the popularity of workflows, 
+workflow management systems (WMSs) have been developed to provide abstractions for 
+creating and executing workflows conveniently, efficiently, and portably.&lt;/p&gt;
+
+&lt;p&gt;While these efforts are all worthwhile, there are now hundreds of independent WMSs, 
+many of which are moribund. As a result, the WMS landscape is segmented and presents 
+significant barriers to entry due to the hundreds of seemingly comparable, yet 
+incompatible, systems that exist. As a result, many teams, small and large, still 
+elect to build their own custom workflow solution rather than adopt, or build upon, 
+existing WMSs. This current state of the WMS landscape negatively impacts workflow users, 
+developers, and researchers.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-summit&quot;&gt;The Summit&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://workflowsri.org/summits/community/&quot;&gt;&lt;strong&gt;Workflows Community Summit&lt;/strong&gt;&lt;/a&gt; was 
+held online on January 13, 2021. The overarching goal of the summit was to develop 
+a view of the state of the art and identify crucial research challenges in the workflow 
+community. Prior to the summit, a survey sent to stakeholders in the workflow community 
+(including both developers of WMSs and users of workflows) helped to identify key challenges 
+in this community that were translated into 6 broad themes for the summit, each of them 
+being the object of a focused discussion led by a volunteer member of the community.&lt;/p&gt;
+
+&lt;p&gt;The summit program consisted of two overview talks about each project
+organizing the event, and six breakout sessions targeting pressing
+needs from the workflows community, as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Theme 1: FAIR computational workflows (&lt;a href=&quot;https://www.research.manchester.ac.uk/portal/carole.goble.html&quot;&gt;Carole Goble&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Theme 2: Training and education for workflow users (&lt;a href=&quot;https://dst.lbl.gov/~lavanya/&quot;&gt;Lavanya Ramakrishnan&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Theme 3: AI workflows (Luc Peterson)&lt;/li&gt;
+  &lt;li&gt;Theme 4: Exascale challenges and beyond (&lt;a href=&quot;https://www.nersc.gov/about/nersc-staff/data-science-engagement-group/bjoern-enders/&quot;&gt;Bjoern Enders&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Theme 5: APIs, interoperability, reuse, and standards (&lt;a href=&quot;https://www3.nd.edu/~dthain/&quot;&gt;Douglas Thain&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Theme 6: Building a workflows community (&lt;a href=&quot;https://words.sdsc.edu/ilkay/&quot;&gt;Ilkay Altintas&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;strong&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.4606958&quot;&gt;summit report&lt;/a&gt;&lt;/strong&gt; documents and organizes the 
+wealth of information provided by the participants before, during, and after the summit. 
+Additional details can be found at &lt;a href=&quot;https://workflowsri.org/summits/community&quot;&gt;https://workflowsri.org/summits/community&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Find below the &lt;a href=&quot;https://www.youtube.com/channel/UCqCnXqWqKe9vF6cqKOj1CYw/videos&quot;&gt;YouTube playlist&lt;/a&gt; 
+with the videos for the projects overview presentations and lightning 
+talks about the six themes above:&lt;/p&gt;
+
+&lt;div class=&quot;resp-container&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLAtmuqHExRvNf5zmggm2VwDedGoibO69U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; class=&quot;resp-iframe&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="meeting" /><category term="workflows" /><category term="community" /><summary type="html">The Summit was held online on January 13, 2021. The overarching goal of the summit was to develop a view of the state of the art and identify crucial research challenges in the workflow community.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rafaelsilva.com/assets/images/news/workflows-community-summit-report.png" /><media:content medium="image" url="https://rafaelsilva.com/assets/images/news/workflows-community-summit-report.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Workflows Community Summit</title><link href="https://rafaelsilva.com/blog/workflows-community-summit/" rel="alternate" type="text/html" title="Workflows Community Summit" /><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><id>https://rafaelsilva.com/blog/workflows-community-summit</id><content type="html" xml:base="https://rafaelsilva.com/blog/workflows-community-summit/">&lt;p&gt;On January 13, 2021, the &lt;a href=&quot;http://workflowsri.org&quot;&gt;&lt;strong&gt;workflowsRI&lt;/strong&gt;&lt;/a&gt; and 
+&lt;a href=&quot;http://exaworks.org&quot;&gt;ExaWorks&lt;/a&gt; projects organized the &lt;a href=&quot;https://workflowsri.org/summits/community/&quot;&gt;&lt;strong&gt;Workflows Community 
+Summit&lt;/strong&gt;&lt;/a&gt;. This unique event 
+gathered a select group of lead researchers from distinct workflow management 
+systems, and sought to identify crucial challenges in the workflow community.&lt;/p&gt;
+
+&lt;p&gt;This event was the first of a series of focused meetings, and has served to 
+define the strategic goals for upcoming meetings with the science and workflow 
+developer communities.&lt;/p&gt;
+
+&lt;p&gt;The summit program consisted of two overview talks about each project 
+organizing the event, and six breakout sessions targeting pressing 
+needs from the workflows community, as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Theme 1: FAIR computational workflows (Carole Goble)&lt;/li&gt;
+  &lt;li&gt;Theme 2: Training and education for workflow users (Lavanya Ramakrishnan)&lt;/li&gt;
+  &lt;li&gt;Theme 3: AI workflows (Luc Peterson)&lt;/li&gt;
+  &lt;li&gt;Theme 4: Exascale challenges and beyond (Bjoern Enders)&lt;/li&gt;
+  &lt;li&gt;Theme 5: APIs, interoperability, reuse, and standards (Douglas Thain)&lt;/li&gt;
+  &lt;li&gt;Theme 6: Building a workflows community (Ilkay Altintas)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Find below the &lt;a href=&quot;https://www.youtube.com/channel/UCqCnXqWqKe9vF6cqKOj1CYw/videos&quot;&gt;YouTube playlist&lt;/a&gt; 
+with the videos for the projects overview presentations and lightning 
+talks about the six themes above:&lt;/p&gt;
+
+&lt;div class=&quot;resp-container&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLAtmuqHExRvNf5zmggm2VwDedGoibO69U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; class=&quot;resp-iframe&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="meeting" /><category term="workflows" /><category term="community" /><summary type="html">On January 13, 2021, the workflowsRI and ExaWorks projects organized the Workflows Community Summit. This unique event gathered a select group of lead researchers from distinct workflow management systems, and sought to identify crucial challenges in the workflow community.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rafaelsilva.com/assets/images/news/workflows-community-summit.png" /><media:content medium="image" url="https://rafaelsilva.com/assets/images/news/workflows-community-summit.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Proceedings of the 15th Workflows in Support of Large-Scale Science – WORKS 2020</title><link href="https://rafaelsilva.com/blog/works20-proceedings/" rel="alternate" type="text/html" title="Proceedings of the 15th Workflows in Support of Large-Scale Science – WORKS 2020" /><published>2021-01-10T00:00:00+00:00</published><updated>2021-01-10T00:00:00+00:00</updated><id>https://rafaelsilva.com/blog/works20-proceedings</id><content type="html" xml:base="https://rafaelsilva.com/blog/works20-proceedings/">&lt;p&gt;The workshop took place on Wednesday, 11 November 2020 and the program featured 
+an invited keynote by Prof. &lt;a href=&quot;https://globalcomputing.group/about.html&quot;&gt;Michela Taufer&lt;/a&gt; 
+(UTK), entitled “&lt;em&gt;In Situ Data Analytics for Next Generation Molecular Dynamics Workflows&lt;/em&gt;”. 
+The program also featured talks from 8 research papers (accepted after a rigorous review 
+process where each paper received at least three reviews). The proceedings include the 
+eight full papers accepted and presented at the workshop.&lt;/p&gt;
+
+&lt;p&gt;We would like to thank the authors, the presenters, the general chair, the steering 
+committee, the program committee, and the SC20 workshop chairs – without their 
+excellent work and contributions WORKS would not be successful.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;proceedings&quot;&gt;Proceedings&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Authors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9308114&quot;&gt;Runtime vs Scheduler: Analyzing Dask’s Overheads&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Stanislav Böhm; Jakub Beránek&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9308134/&quot;&gt;Workflow Generation with wfGenes&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Mehdi Roozmeh; Ivan Kondov&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9308116/&quot;&gt;Supercomputing with MPI meets the Common Workflow Language standards: an experience report&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Rupert W. Nash; Michael R. Crusoe; Max Kontak; Nick Brown&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9308147/&quot;&gt;Applying workflows to scientific projects represented in file system directory tree&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Mieszko Makuch; Maciej Malawski; Joanna Kocot; Tomasz Szepieniec&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9308240/&quot;&gt;Adaptive Optimizations for Stream-based Workflows&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Liang Liang; Rosa Filgueira; Yan Yan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9308118/&quot;&gt;Enabling Discoverable Trusted Services for Highly Dynamic Decentralized Workflows&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Iain Barclay; Chris Simpkin; Graham Bent; Tom La Porta; Declan Millar; Alun Preece; Ian Taylor; Dinesh Verma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9308170/&quot;&gt;WorkflowHub: Community Framework for Enabling Scientific Workflow Research and Development&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Rafael Ferreira da Silva; Loïc Pottier; Tainã Coleman; Ewa Deelman; Henri Casanova&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9308164/&quot;&gt;Characterizing Scientific Workflows on HPC Systems using Logs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Devarshi Ghoshal; Brian Austin; Deborah Bard; Christopher Daley; Glenn Lockwood; Nicholas J. Wright; Lavanya Ramakrishnan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="conference" /><summary type="html">The workshop took place on Wednesday, 11 November 2020 and the program featured an invited keynote by Prof. Michela Taufer (UTK), entitled “In Situ Data Analytics for Next Generation Molecular Dynamics Workflows”. The program also featured talks from 8 research papers (accepted after a rigorous review process where each paper received at least three reviews). The proceedings include the eight full papers accepted and presented at the workshop.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rafaelsilva.com/assets/images/news/works20-proceedings.png" /><media:content medium="image" url="https://rafaelsilva.com/assets/images/news/works20-proceedings.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">15th Workflows in Support of Large-Scale Science – WORKS 2020 @SC20</title><link href="https://rafaelsilva.com/blog/works20/" rel="alternate" type="text/html" title="15th Workflows in Support of Large-Scale Science – WORKS 2020 @SC20" /><published>2020-04-10T00:00:00+00:00</published><updated>2020-04-10T00:00:00+00:00</updated><id>https://rafaelsilva.com/blog/works20</id><content type="html" xml:base="https://rafaelsilva.com/blog/works20/">&lt;p&gt;The &lt;a href=&quot;http://works-workshop.org&quot; target=&quot;_blank&quot;&gt;15th Workflows in Support of Large-Scale Science (WORKS)&lt;/a&gt; Workshop will be held in conjunction with &lt;a href=&quot;https://sc20.supercomputing.org/&quot; target=&quot;_blank&quot;&gt;SC20&lt;/a&gt; on November 11, 2020 (virtual event).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;important-dates&quot;&gt;Important Dates&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;August 28, 2020&lt;/strong&gt; – Full paper deadline&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;September 25, 2020&lt;/strong&gt; – Paper acceptance notification&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;October 1, 2020&lt;/strong&gt; – E-copyright registration completed by authors&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;October 1, 2020&lt;/strong&gt; – Camera-ready deadline&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;November 11, 2020&lt;/strong&gt; – Workshop (virtual event)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;workshop-description&quot;&gt;Workshop Description&lt;/h4&gt;
+
+&lt;p&gt;Scientific workflows have been almost universally used across scientific domains 
+and have underpinned some of the most significant discoveries of the past several 
+decades. Workflow management systems (WMSs) provide abstraction and automation 
+which enable a broad range of researchers to easily define sophisticated 
+computational processes and to then execute them efficiently on parallel and 
+distributed computing systems. As workflows have been adopted by a number of 
+scientific communities, they are becoming more complex and require more 
+sophisticated workflow management capabilities. A workflow now can analyze 
+terabyte-scale data sets, be composed of one million individual tasks, require 
+coordination between heterogeneous tasks, manage tasks that execute for 
+milliseconds to hours, and can process data streams, files, and data placed in 
+object stores. The computations can be single core workloads, loosely coupled 
+computations, or tightly all within a single workflow, and can run in dispersed 
+computing platforms.&lt;/p&gt;
+
+&lt;p&gt;This workshop focuses on the many facets of scientific workflow management 
+systems, ranging from actual execution to service management and the coordination 
+and optimization of data, service, and job dependencies. The workshop covers a 
+broad range of issues in the scientific workflow lifecycle that include: 
+scientific workflows representation and enactment; workflow scheduling 
+techniques to optimize the execution of the workflow on heterogeneous 
+infrastructures; workflow enactment engines that need to deal with failures in 
+the application and execution environment; and a number of computer science 
+problems related to scientific workflows such as semantic technologies, compiler 
+methods, scheduling and fault detection and tolerance.&lt;/p&gt;</content><author><name></name></author><category term="conference" /><summary type="html">The 15th Workflows in Support of Large-Scale Science (WORKS) Workshop will be held in conjunction with SC20 on November 11, 2020 (virtual event).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rafaelsilva.com/assets/images/news/works20.png" /><media:content medium="image" url="https://rafaelsilva.com/assets/images/news/works20.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">WorkflowHub: Community Framework for Enabling Scientific Workflow Research and Development</title><link href="https://rafaelsilva.com/blog/workflowhub/" rel="alternate" type="text/html" title="WorkflowHub: Community Framework for Enabling Scientific Workflow Research and Development" /><published>2020-04-10T00:00:00+00:00</published><updated>2020-04-10T00:00:00+00:00</updated><id>https://rafaelsilva.com/blog/workflowhub</id><content type="html" xml:base="https://rafaelsilva.com/blog/workflowhub/">&lt;p&gt;The &lt;a href=&quot;https://workflowhub.org&quot;&gt;WorkflowHub project&lt;/a&gt; is a community framework 
+for enabling scientific workflow research and development. It provides foundational 
+tools for analyzing workflow execution traces, and generating synthetic, yet 
+realistic, workflow traces. These traces can then be used for experimental 
+evaluation and development of novel algorithms and systems for overcoming the 
+challenge of efficient and robust execution of ever-demanding workflows on 
+increasingly complex distributed infrastructures.&lt;/p&gt;
+
+&lt;p&gt;The WorkflowHub project uses a &lt;a href=&quot;https://workflowhub.org/json-format&quot;&gt;common format&lt;/a&gt; 
+for representing collected workflow traces and generated synthetic workflows traces. 
+Workflow simulators and simulation frameworks that support this common format can 
+then use both types of traces interchangeably.&lt;/p&gt;
+
+&lt;p&gt;In order to allow users to analyze existing workflow traces and to generate 
+synthetic workflow traces, the WorkflowHub framework provides a collection of 
+tools released as an &lt;a href=&quot;https://workflowhub.readthedocs.io/en/latest/&quot;&gt;open source Python package&lt;/a&gt;. 
+This package provides several tools for analyzing workflow traces. More specifically, 
+analyses can be performed to produce statistical summaries of workflow performance 
+characteristics, per task type. The WorkflowHub Python package also provides a 
+number of workflow recipes for generating realistic synthetic workflow traces. 
+The current version of the WorkflowHub’s Python package provides recipes for 
+generating synthetic workflows for all 6 applications.&lt;/p&gt;
+
+&lt;p&gt;Read our &lt;a href=&quot;https://arxiv.org/abs/2009.00250&quot;&gt;technical report&lt;/a&gt; available at ArXiv.&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/ewOXrBdhPDiPPl&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;</content><author><name></name></author><category term="conference" /><summary type="html">The WorkflowHub project is a community framework for enabling scientific workflow research and development. It provides foundational tools for analyzing workflow execution traces, and generating synthetic, yet realistic, workflow traces. These traces can then be used for experimental evaluation and development of novel algorithms and systems for overcoming the challenge of efficient and robust execution of ever-demanding workflows on increasingly complex distributed infrastructures.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rafaelsilva.com/assets/images/news/workflowhub.png" /><media:content medium="image" url="https://rafaelsilva.com/assets/images/news/workflowhub.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SIAM PP20 – The Many Faces of Simulation for HPC Minisymposium</title><link href="https://rafaelsilva.com/blog/siam-pp-20/" rel="alternate" type="text/html" title="SIAM PP20 – The Many Faces of Simulation for HPC Minisymposium" /><published>2019-10-02T00:00:00+00:00</published><updated>2019-10-02T00:00:00+00:00</updated><id>https://rafaelsilva.com/blog/siam-pp-20</id><content type="html" xml:base="https://rafaelsilva.com/blog/siam-pp-20/">&lt;h2 id=&quot;minisymposium-the-many-faces-of-simulation-for-hpc&quot;&gt;Minisymposium: The Many Faces of Simulation for HPC&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Saturday February 15, 2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;organizers&quot;&gt;Organizers:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rafael Ferreira da Silva – &lt;em&gt;University of Southern California, USA&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Frédéric Suter – &lt;em&gt;CNRS, France&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract –&lt;/strong&gt; In the field of HPC research and development, simulation has mainly been used for the purpose of evaluating and comparing the performance of application implementations and of the algorithms therein. While this use remains critical, for good reasons, many other compelling use cases have emerged. These have often been made possible by recent advances in the simulation methodologies at the core of available simulation frameworks. Examples of new areas in which simulation has become a compelling proposition include debugging and verification, application/simulation co-design, and HPC education. In this multi-part mini-symposium, we bring together researchers who have contributed to traditional and explored emerging uses of simulation of HPC systems and applications. The objective is for them to share their experiences, present recent results, identify areas of convergence, and discuss future directions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;session-1&quot;&gt;Session 1&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=67786&quot; target=&quot;_blank&quot;&gt;https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=67786&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10:40-11:00&lt;/td&gt;
+      &lt;td&gt;The Many Faces of Simulation for HPC&lt;/td&gt;
+      &lt;td&gt;Frédéric Suter, CNRS, France; Rafael Ferreira da Silva, University of Southern California, U.S.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11:05-11:25&lt;/td&gt;
+      &lt;td&gt;Teaching Parallel and Distributed Computing Concepts in Simulation&lt;/td&gt;
+      &lt;td&gt;Henri Casanova, University of Hawaii, U.S.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11:30-11:50&lt;/td&gt;
+      &lt;td&gt;Fast and Faithful Performance Prediction of MPI Applications: the HPL Case Study&lt;/td&gt;
+      &lt;td&gt;Tom Cornebize, Université Grenoble Alpes, France; Arnaud Legrand, CNRS, France; Franz Christian Heinrich, Inria, France&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11:55-12:15&lt;/td&gt;
+      &lt;td&gt;Power-Aware Scheduling with Slurm: Simulation and Practice&lt;/td&gt;
+      &lt;td&gt;Tapasya Patki, Lawrence Livermore National Laboratory, U.S.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;session-2&quot;&gt;Session 2&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=67787&quot; target=&quot;_blank&quot;&gt;https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=67787&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1:50-2:10&lt;/td&gt;
+      &lt;td&gt;Faithful Performance Prediction of a Dynamic Task-Based Runtime System, an Opportunity for Task Graph Scheduling&lt;/td&gt;
+      &lt;td&gt;Samuel Thibault, LaBRI, France; Luka Stanisic, Inria Bordeaux Sud-Ouest, France; Arnaud Legrand, CNRS, France; Brice Videau, INRIA Grenoble Rhône-Alpes, France; Jean-François Méhaut, Universite Joseph Fourier, France&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2:15-2:35&lt;/td&gt;
+      &lt;td&gt;New Horizons for Debugging Long-running Parallel Programs: DMTCP and SimGrid&lt;/td&gt;
+      &lt;td&gt;Gene Cooperman and Rohan Garg, Northeastern University, U.S.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2:40-3:00&lt;/td&gt;
+      &lt;td&gt;Application-simulation co-design for performance and correctness evaluation&lt;/td&gt;
+      &lt;td&gt;Luigi Genovese, CEA, France; Augustin Degomme, CEA Grenoble&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="conference" /><summary type="html">Minisymposium: The Many Faces of Simulation for HPC</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rafaelsilva.com/assets/images/news/siampp20.png" /><media:content medium="image" url="https://rafaelsilva.com/assets/images/news/siampp20.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Bridging Concepts and Practice in eScience via Simulation-driven Engineering</title><link href="https://rafaelsilva.com/blog/bc2dc/" rel="alternate" type="text/html" title="Bridging Concepts and Practice in eScience via Simulation-driven Engineering" /><published>2019-10-02T00:00:00+00:00</published><updated>2019-10-02T00:00:00+00:00</updated><id>https://rafaelsilva.com/blog/bc2dc</id><content type="html" xml:base="https://rafaelsilva.com/blog/bc2dc/">&lt;p&gt;The CyberInfrastructure (CI) has been the object of intensive research and development in the last decade, resulting in a rich set of abstractions and interoperable software implementations that are used in production today for supporting ongoing and breakthrough scientific discoveries. A key challenge is the development of tools and application execution frameworks that are robust in current and emerging CI configurations, and that can anticipate the needs of upcoming CI applications. This paper presents WRENCH, a framework that enables simulation- driven engineering for evaluating and developing CI application execution frameworks. WRENCH provides a set of high- level simulation abstractions that serve as building blocks for developing custom simulators. These abstractions rely on the scalable and accurate simulation models that are provided by the SimGrid simulation framework. Consequently, WRENCH makes it possible to build, with minimum software development effort, simulators that that can accurately and scalably simulate a wide spectrum of large and complex CI scenarios. These simulators can then be used to evaluate and/or compare alternate platform, system, and algorithm designs, so as to drive the development of CI solutions for current and emerging applications.&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/QjIA6rrfVAexP&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference to the paper&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://dx.doi.org/10.1109/eScience.2019.00084&quot; target=&quot;_blank&quot; alt=&quot;DOI&quot;&gt;
+                                    &lt;i class=&quot;ai ai-doi&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;a href=&quot;/files/publications/ferreiradasilva2019escience.pdf&quot; target=&quot;_blank&quot; alt=&quot;PDF&quot;&gt; &lt;i class=&quot;far fa-file-pdf&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;span id=&quot;ferreiradasilva2019escience&quot;&gt;Ferreira da Silva, R., Casanova, H., Tanaka, R., &amp;amp; Suter, F. (2019). Bridging Concepts and Practice in eScience via Simulation-driven Engineering. In &lt;i&gt;Workshop on Bridging from Concepts to Data and Computation for eScience (BC2DC’19), 15th International Conference on eScience (eScience)&lt;/i&gt; (pp. 609–614). https://doi.org/10.1109/eScience.2019.00084&lt;/span&gt;
+                                    &lt;br /&gt; &lt;a data-toggle=&quot;collapse&quot; href=&quot;#bib-ferreiradasilva2019escience&quot; role=&quot;button&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;bib-ferreiradasilva2019escience&quot; style=&quot;color: #999&quot;&gt;
+                                        [BibTex] &lt;/a&gt;
+                                    &lt;div class=&quot;collapse&quot; id=&quot;bib-ferreiradasilva2019escience&quot;&gt;
+                                        &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;@inproceedings{ferreiradasilva2019escience,
+  title = {Bridging Concepts and Practice in eScience via Simulation-driven Engineering},
+  author = {Ferreira da Silva, Rafael and Casanova, Henri and Tanaka, Ryan and Suter, Frederic},
+  booktitle = {Workshop on Bridging from Concepts to Data and Computation for eScience (BC2DC'19), 15th International Conference on eScience (eScience)},
+  year = {2019},
+  pages = {609--614},
+  doi = {10.1109/eScience.2019.00084}
+}&lt;/code&gt;&lt;/pre&gt;
+                                        &lt;/figure&gt;
+                                    &lt;/div&gt;
+                                &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="presentation" /><category term="research-paper" /><summary type="html">The CyberInfrastructure (CI) has been the object of intensive research and development in the last decade, resulting in a rich set of abstractions and interoperable software implementations that are used in production today for supporting ongoing and breakthrough scientific discoveries. A key challenge is the development of tools and application execution frameworks that are robust in current and emerging CI configurations, and that can anticipate the needs of upcoming CI applications. This paper presents WRENCH, a framework that enables simulation- driven engineering for evaluating and developing CI application execution frameworks. WRENCH provides a set of high- level simulation abstractions that serve as building blocks for developing custom simulators. These abstractions rely on the scalable and accurate simulation models that are provided by the SimGrid simulation framework. Consequently, WRENCH makes it possible to build, with minimum software development effort, simulators that that can accurately and scalably simulate a wide spectrum of large and complex CI scenarios. These simulators can then be used to evaluate and/or compare alternate platform, system, and algorithm designs, so as to drive the development of CI solutions for current and emerging applications.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rafaelsilva.com/assets/images/news/bc2dc.png" /><media:content medium="image" url="https://rafaelsilva.com/assets/images/news/bc2dc.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

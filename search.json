@@ -1,0 +1,213 @@
+[
+
+{
+"category": "modeling, simulation, workflows, distributed computing, ai workflows, FAIR computational workflows, exascale",
+"title": "Towards an Infrastructure for Enabling Systematic Development and Research of Scientific Workflow Systems and Applications",
+"description": "Scientific workflows have been used almost universally across scientific doma...",
+"url": "/blog/escience-2021/",
+"image": "/assets/images/news/escience2021.png",
+"author": ""
+}
+,
+
+{
+"category": "modeling, simulation, WRENCH, WfCommons, SimGrid, workflows, distributed computing",
+"title": "Modeling and Simulation of Parallel and Distributed Computing Systems with SimGrid, WRENCH, and WfCommons",
+"description": "This presentation provides an overview of three open source toolsthat have su...",
+"url": "/blog/modeling-and-simulation/",
+"image": "/assets/images/news/modeling-and-simulation.png",
+"author": ""
+}
+,
+
+{
+"category": "scientific-software, best-practices",
+"title": "Good Practices for Developing Scientific Software Frameworks: The WRENCH framework example",
+"description": "Recently, I have presented a set of good practices for developing scientific ...",
+"url": "/blog/good-practices-scientific-software/",
+"image": "/assets/images/news/best-practices-scientific-software.png",
+"author": ""
+}
+,
+
+{
+"category": "meeting, workflows, community",
+"title": "Workflows Community Summit: Bringing the Scientific Workflows Community Together",
+"description": "Summit Report:MotivationScientific workflows have been used almost universall...",
+"url": "/blog/workflows-community-summit-report/",
+"image": "/assets/images/news/workflows-community-summit-report.png",
+"author": ""
+}
+,
+
+{
+"category": "meeting, workflows, community",
+"title": "Workflows Community Summit",
+"description": "On January 13, 2021, the workflowsRI and ExaWorks projects organized the Work...",
+"url": "/blog/workflows-community-summit/",
+"image": "/assets/images/news/workflows-community-summit.png",
+"author": ""
+}
+,
+
+{
+"category": "conference",
+"title": "Proceedings of the 15th Workflows in Support of Large-Scale Science – WORKS 2020",
+"description": "The workshop took place on Wednesday, 11 November 2020 and the program featur...",
+"url": "/blog/works20-proceedings/",
+"image": "/assets/images/news/works20-proceedings.png",
+"author": ""
+}
+,
+
+{
+"category": "conference",
+"title": "WorkflowHub: Community Framework for Enabling Scientific Workflow Research and Development",
+"description": "The WorkflowHub project is a community framework for enabling scientific work...",
+"url": "/blog/workflowhub/",
+"image": "/assets/images/news/workflowhub.png",
+"author": ""
+}
+,
+
+{
+"category": "conference",
+"title": "15th Workflows in Support of Large-Scale Science – WORKS 2020 @SC20",
+"description": "The 15th Workflows in Support of Large-Scale Science (WORKS) Workshop will be...",
+"url": "/blog/works20/",
+"image": "/assets/images/news/works20.png",
+"author": ""
+}
+,
+
+{
+"category": "conference",
+"title": "SIAM PP20 – The Many Faces of Simulation for HPC Minisymposium",
+"description": "Minisymposium: The Many Faces of Simulation for HPCSaturday February 15, 2020...",
+"url": "/blog/siam-pp-20/",
+"image": "/assets/images/news/siampp20.png",
+"author": ""
+}
+,
+
+{
+"category": "presentation, research-paper",
+"title": "Bridging Concepts and Practice in eScience via Simulation-driven Engineering",
+"description": "The CyberInfrastructure (CI) has been the object of intensive research and de...",
+"url": "/blog/bc2dc/",
+"image": "/assets/images/news/bc2dc.png",
+"author": ""
+}
+,
+
+{
+"category": "research-paper",
+"title": "Measuring the Impact of Burst Buffers on Data-Intensive Scientific Workflows",
+"description": "Science applications frequently produce and consume large volumes of data, bu...",
+"url": "/blog/fgcs-burst-buffers/",
+"image": "/assets/images/news/fgcsbb2019.png",
+"author": ""
+}
+,
+
+{
+"category": "presentation, research-paper",
+"title": "Accurately Simulating Energy Consumption of I/O-intensive Scientific Workflows",
+"description": "While distributed computing infrastructures can provide infrastructure-level ...",
+"url": "/blog/iccs2019/",
+"image": "/assets/images/news/wrench-energy-1024x545.png",
+"author": ""
+}
+,
+
+{
+"category": "conference, workshop",
+"title": "Bridging from Concepts to Data and Computation for eScience — BC2DC’19 @eScience19",
+"description": "The Bridging from Concepts to Data and Computation for eScience (BC2DC’19) Wo...",
+"url": "/blog/bc2dc-escience2019/",
+"image": "/assets/images/news/escience2019.png",
+"author": ""
+}
+,
+
+{
+"category": "conference, workshop",
+"title": "14th Workflows in Support of Large-Scale Science – WORKS 2019 @SC19",
+"description": "The 14th Workflows in Support of Large-Scale Science (WORKS) Workshop will be...",
+"url": "/blog/works19/",
+"image": "/assets/images/news/works2019.png",
+"author": ""
+}
+,
+
+{
+"category": "conference, workshop",
+"title": "13th Workflows in Support of Large-Scale Science – WORKS 2018 Proceedings",
+"description": "The proceedings of the 13th Workflows in Support of Large-Scale Science Works...",
+"url": "/blog/works18-proceedings/",
+"image": "/assets/images/news/works2018.png",
+"author": ""
+}
+,
+
+{
+"category": "presentation, research-paper",
+"title": "Running Accurate, Scalable, and Reproducible Simulations of Distributed Systems with WRENCH",
+"description": "Scientific workflows are used routinely in numerous scientific domains, and W...",
+"url": "/blog/wrench-works2018/",
+"image": "/assets/images/news/wrench-pegasus-comparison.png",
+"author": ""
+}
+,
+
+{
+"category": "presentation",
+"title": "WRENCH - Workflow Management System Simulation Workbench",
+"description": "WRENCH enables novel avenues for scientific workflow use, research, developme...",
+"url": "/blog/wrench/",
+"image": "/assets/images/news/wrench.png",
+"author": ""
+}
+,
+
+{
+"category": "conference, workshop",
+"title": "13th Workflows in Support of Large-Scale Science – WORKS 2018",
+"description": "Held in conjunction with SC18: The International Conference for High Performa...",
+"url": "/blog/works18/",
+"image": "/assets/images/news/works2018.png",
+"author": ""
+}
+,
+
+{
+"category": "conference",
+"title": "The Interplay of Workflow Execution and Resource Provisioning",
+"description": "Presentation held at the 18th SIAM Conference on Parallel Processing for Scie...",
+"url": "/blog/siampp18-workflow/",
+"image": "/assets/images/news/siampp18-workflow.png",
+"author": ""
+}
+,
+
+{
+"category": "conference, workshop",
+"title": "On the Use of Burst Buffers for Accelerating Data-Intensive Scientific Workflows",
+"description": "Presentation held at the 12th Workflows in Support of Large-Scale Science, 20...",
+"url": "/blog/works17-bb/",
+"image": "/assets/images/news/worksbb2017.png",
+"author": ""
+}
+,
+
+{
+"category": "journal",
+"title": "A Characterization of Workflow Management Systems for Extreme-Scale Applications",
+"description": "Figure. Characterization of state-of-the-art WMSs. The classification highlig...",
+"url": "/blog/fgcs-extreme-scale/",
+"image": "/assets/images/news/paper-characterization.png",
+"author": ""
+}
+
+
+]
