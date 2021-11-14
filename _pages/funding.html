@@ -11,8 +11,8 @@ permalink: /funding/
     <article class="post">
         <header>
             <div class="title">
-                <h2>NSF</h2>
-                <p>National Science Foundation</p>
+                <h2>TIDES</h2>
+                <p>Texas Institute for Discovery Education in Science</p>
             </div>
         </header>
         <div class="activities">
@@ -23,7 +23,7 @@ permalink: /funding/
                 Period: <strong style="color: #666 !important">{{ c.period }}</strong> – Total Amount: ${{ c.amount
                 }}<br/>
                 Program: {{ c.program }}<br/>
-                Awards:
+                <!--Awards:    Add back in when you have public facing award IDs--> 
                 {% for d in c.awards %}
                 #<a href="{{ d.link }}" target="_blank">{{ d.id }}</a>
                 {% endfor %}
@@ -33,7 +33,7 @@ permalink: /funding/
         </div>
     </article>
 </div>
-
+<!--
 <div class="row">
     <article class="post">
         <header>
@@ -87,7 +87,7 @@ permalink: /funding/
             {% endfor %}
         </div>
     </article>
-</div>
+</div> -->
 
 <div class="bottom">
     <figure style="text-align: center">

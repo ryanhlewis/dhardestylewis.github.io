@@ -1,145 +1,145 @@
 - nsf:
-  - title: "Collaborative Research: OAC Core: Simulation-driven runtime resource management for distributed workflow applications"
-    period: 10/2021-09/2024
-    amount: "499,988"
-    program: "Computer and Information Science and Engineering (CISE): Core Programs"
-    awards:
-      - id: 2106059
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2106059
-      - id: 2106147
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2106147
+  - title: "TIDES Fellowship: Upgrading Texas's groundwater availability models to a more contemporary format"
+    period: 05/2017-08/2017
+    amount: "4000"
+    program: "Undergraduate Research Assistant Fellowship"
+    # awards:
+    #   - id: 2106059
+    #     link: https://nsf.gov/awardsearch/showAward?AWD_ID=2106059
+    #   - id: 2106147
+    #     link: https://nsf.gov/awardsearch/showAward?AWD_ID=2106147
 
-  - title: "Collaborative Research: Elements: Simulation-driven Evaluation of Cyberinfrastructure Systems"
-    period: 08/2021-07/2024
-    amount: "600,000"
-    program: Software Institutes (CSSI)
-    awards:
-      - id: 2103489
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2103489
-      - id: 2103508
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2103508
+#   - title: "Collaborative Research: Elements: Simulation-driven Evaluation of Cyberinfrastructure Systems"
+#     period: 08/2021-07/2024
+#     amount: "600,000"
+#     program: Software Institutes (CSSI)
+#     awards:
+#       - id: 2103489
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2103489
+#       - id: 2103508
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2103508
 
-  - title: "Collaborative Research: EAGER: VisDict - Visual Dictionaries for Enhancing the Communication between Domain Scientists and Scientific Workflow Providers"
-    period: 05/2021-10/2022
-    amount: "264,500"
-    program: Computing and Communication Foundations (CCF)
-    awards:
-      - id: 2100561
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2100561
-      - id: 2100636
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2100636
+#   - title: "Collaborative Research: EAGER: VisDict - Visual Dictionaries for Enhancing the Communication between Domain Scientists and Scientific Workflow Providers"
+#     period: 05/2021-10/2022
+#     amount: "264,500"
+#     program: Computing and Communication Foundations (CCF)
+#     awards:
+#       - id: 2100561
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2100561
+#       - id: 2100636
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2100636
 
-  - title: "REU Site: SURF-I: Safe, Usable, Resilient and Fair Internet"
-    period: 03/2021-02/2024
-    amount: "405,000"
-    program: Computer and Network Systems (CNS)
-    awards:
-      - id: 2051101
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2051101
+#   - title: "REU Site: SURF-I: Safe, Usable, Resilient and Fair Internet"
+#     period: 03/2021-02/2024
+#     amount: "405,000"
+#     program: Computer and Network Systems (CNS)
+#     awards:
+#       - id: 2051101
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2051101
       
-  - title: "CCRI: Planning: Collaborative Research: Infrastructure for Enabling Systematic Development and Research of Scientific Workflow Management Systems"
-    period: 10/2020-09/2021
-    amount: "100,000"
-    program: CISE Community Research Infrastructure
-    awards:
-      - id: 2016610
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2016610
-      - id: 2016619
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2016619
-      - id: 2016682
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2016682
+#   - title: "CCRI: Planning: Collaborative Research: Infrastructure for Enabling Systematic Development and Research of Scientific Workflow Management Systems"
+#     period: 10/2020-09/2021
+#     amount: "100,000"
+#     program: CISE Community Research Infrastructure
+#     awards:
+#       - id: 2016610
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2016610
+#       - id: 2016619
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2016619
+#       - id: 2016682
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2016682
         
-  - title: "Collaborative Research: PPoSS: Planning: Performance Scalability, Trust, and Reproducibility: A Community Roadmap to Robust Science in High-throughput Applications"
-    period: "10/2020-09/2021"
-    amount: "250,000"
-    program: Scalable Parallelism in the Extreme (SPX)
-    awards:
-      - id: 2028881
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2028881
-      - id: 2028923
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2028923
-      - id: 2028930
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2028930
-      - id: 2028955
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2028955
-      - id: 2028956
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=2028956
+#   - title: "Collaborative Research: PPoSS: Planning: Performance Scalability, Trust, and Reproducibility: A Community Roadmap to Robust Science in High-throughput Applications"
+#     period: "10/2020-09/2021"
+#     amount: "250,000"
+#     program: Scalable Parallelism in the Extreme (SPX)
+#     awards:
+#       - id: 2028881
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2028881
+#       - id: 2028923
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2028923
+#       - id: 2028930
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2028930
+#       - id: 2028955
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2028955
+#       - id: 2028956
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=2028956
     
-  - title: "Collaborative Research: CyberTraining: Implementation: Small: Integrating core CI literacy and skills into university curricula via simulation-driven activities"
-    period: 10/2019–09/2022
-    amount: "500,000"
-    program: CyberTraining – Training-based
-    awards:
-      - id: 1923539
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=1923539
-      - id: 1923621
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=1923621
+#   - title: "Collaborative Research: CyberTraining: Implementation: Small: Integrating core CI literacy and skills into university curricula via simulation-driven activities"
+#     period: 10/2019–09/2022
+#     amount: "500,000"
+#     program: CyberTraining – Training-based
+#     awards:
+#       - id: 1923539
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=1923539
+#       - id: 1923621
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=1923621
 
-  - title: "Coordinating Curricula and User Preferences to Increase the Participation of Women and Students of Color in Engineering"
-    period: 10/2018–09/2021
-    amount: "300,000"
-    program: IUSE
-    awards:
-      - id: 1826632
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=1826632
+#   - title: "Coordinating Curricula and User Preferences to Increase the Participation of Women and Students of Color in Engineering"
+#     period: 10/2018–09/2021
+#     amount: "300,000"
+#     program: IUSE
+#     awards:
+#       - id: 1826632
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=1826632
 
-  - title: "BIGDATA: IA: Collaborative Research: In Situ Data Analytics for Next Generation Molecular Dynamics Workflows"
-    period: 10/2017–09/2021
-    amount: "1,993,043"
-    program: Big Data Science & Engineering
-    awards:
-      - id: 1741057
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=1741057
-      - id: 1740990
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=1740990
-      - id: 1741040
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=1741040
+#   - title: "BIGDATA: IA: Collaborative Research: In Situ Data Analytics for Next Generation Molecular Dynamics Workflows"
+#     period: 10/2017–09/2021
+#     amount: "1,993,043"
+#     program: Big Data Science & Engineering
+#     awards:
+#       - id: 1741057
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=1741057
+#       - id: 1740990
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=1740990
+#       - id: 1741040
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=1741040
 
-  - title: "Collaborative Research: SI2-SSE: WRENCH: A Simulation Workbench for Scientific Workflow for Users, Developers, and Researchers"
-    period: 01/2017—12/2019
-    amount: "497,956"
-    program: Software Institutes
-    awards:
-      - id: 1642369
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=1642369
-      - id: 1642335
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=1642335
+#   - title: "Collaborative Research: SI2-SSE: WRENCH: A Simulation Workbench for Scientific Workflow for Users, Developers, and Researchers"
+#     period: 01/2017—12/2019
+#     amount: "497,956"
+#     program: Software Institutes
+#     awards:
+#       - id: 1642369
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=1642369
+#       - id: 1642335
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=1642335
 
-  - title: "2018 Software Infrastructure for Sustained Innovation (SI2) Principal Investigators Workshop"
-    period: 06/2018–05/2019
-    amount: "85,065"
-    program: Software Institutes
-    awards:
-      - id: 1831393
-        link: https://nsf.gov/awardsearch/showAward?AWD_ID=1831393
+#   - title: "2018 Software Infrastructure for Sustained Innovation (SI2) Principal Investigators Workshop"
+#     period: 06/2018–05/2019
+#     amount: "85,065"
+#     program: Software Institutes
+#     awards:
+#       - id: 1831393
+#         link: https://nsf.gov/awardsearch/showAward?AWD_ID=1831393
 
-- darpa:
-  - title: "MINT: Model INTegration through Knowledge-Rich Data and Process Composition"
-    period: 12/2017–11/2021
-    amount: "12,979,881"
-    program: World Modelers
-    awards:
-      - id: W911NF-18-1-0027
+# - darpa:
+#   - title: "MINT: Model INTegration through Knowledge-Rich Data and Process Composition"
+#     period: 12/2017–11/2021
+#     amount: "12,979,881"
+#     program: World Modelers
+#     awards:
+#       - id: W911NF-18-1-0027
 
-- international:
-  - title: "Integrating Cyberinfrastructure Literacy into University Curricula"
-    period: 08/2021 – 05/2022
-    amount: "$4,400"
-    program: USC URAP
+# - international:
+#   - title: "Integrating Cyberinfrastructure Literacy into University Curricula"
+#     period: 08/2021 – 05/2022
+#     amount: "$4,400"
+#     program: USC URAP
 
-  - title: "Teaching Parallel and Distributed Computing Concepts in Simulation"
-    period: 08/2020 – 05/2021
-    amount: "$3,300"
-    program: USC URAP
+#   - title: "Teaching Parallel and Distributed Computing Concepts in Simulation"
+#     period: 08/2020 – 05/2021
+#     amount: "$3,300"
+#     program: USC URAP
     
-  - title: "Integrating core CI literacy and skills into university curricula via simulation-driven activities"
-    period: 08/2019 – 05/2020
-    amount: "$2,825"
-    program: USC URAP
+#   - title: "Integrating core CI literacy and skills into university curricula via simulation-driven activities"
+#     period: 08/2019 – 05/2020
+#     amount: "$2,825"
+#     program: USC URAP
     
-  - title: "Laboratoire Virtuel pour la Conception de Systèmes de Gestion de Workflows"
-    period: 1/2016–12/2018
-    amount: "24,000 €"
-    program: CNRS PICS
-    awards:
-      - id: PICS07239
+#   - title: "Laboratoire Virtuel pour la Conception de Systèmes de Gestion de Workflows"
+#     period: 1/2016–12/2018
+#     amount: "24,000 €"
+#     program: CNRS PICS
+#     awards:
+#       - id: PICS07239
