@@ -30,27 +30,27 @@ menu:
 social:
   linkedin:
     icon: fa-linkedin
-    link: https://www.linkedin.com/in/rafaelfsilva
+    link: https://www.linkedin.com/in/dhardestylewis
 
   github:
     icon: fa-github
-    link: https://github.com/rafaelfsilva
+    link: https://github.com/dhardestylewis
 
   googlescholar:
     icon: ai-google-scholar
-    link: https://scholar.google.com/citations?user=N63oC44AAAAJ&amp;hl=en
+    link: https://scholar.google.com/citations?hl=en&user=agBdssgAAAAJ
 
   researchgate:
     icon: ai-researchgate
-    link: https://www.researchgate.net/profile/Rafael_Ferreira_da_Silva
+    link: https://www.researchgate.net/profile/Daniel-Hardesty-Lewis
 
   dblp:
     icon: ai-dblp
-    link: http://dblp.uni-trier.de/pers/hd/s/Silva:Rafael_Ferreira_da.html
+    link: https://dblp.org/pid/236/5288.html
 
   orcid:
     icon: ai-orcid
-    link: http://orcid.org/0000-0002-1720-0928
+    link: https://orcid.org/0000-0001-5305-1440
 
   twitter:
     icon: fa-twitter
